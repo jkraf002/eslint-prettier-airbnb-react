@@ -133,9 +133,13 @@ else
     "jest": true,
     "node": true
   },
+  parser: 'babel-eslint',
   "rules": {
     "jsx-a11y/href-no-hash": ["off"],
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    'react/state-in-constructor': 0,
+    'react/destructuring-assignment': 0,
+    'react/prop-types': 0,
     "max-len": [
       "warn",
       {
